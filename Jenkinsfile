@@ -12,7 +12,7 @@ pipeline {
             steps {
                     sh 'docker build -t test .'
 
-                    sh 'docker run --rm -d -p 8081:8080 --name test-container test'                }
+                    sh 'docker run --rm -d -p 8081:8080 --name calculatrice-test calculatrice'                }
             }
         }
 
