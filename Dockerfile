@@ -1,4 +1,4 @@
-FROM selenium/standalone-chrome:latest
+FROM node:18
 
 USER root
 RUN apt-get update && apt-get install -y curl gnupg \

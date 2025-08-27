@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Cloner le code') {
             steps {
-                git 'https://github.com/kenaubry/CalculatriceJenkins'
+                git branch: 'main', url: 'https://github.com/dainata92/pipeline-complete'
             }
         }
 
